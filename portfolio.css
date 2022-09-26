@@ -1,0 +1,131 @@
+.section--grey {
+    background-color: #edeef0;
+    width: 100%;
+    border-top: #d0d0d0 1px solid;
+    border-bottom: #d0d0d0 1px solid;
+}
+
+
+/*vishivka*/
+.vishivka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+
+    padding: 20px 0 0;
+    line-height: 1.4;
+}
+
+.red__line {
+    position: relative;
+
+}
+
+.red__line:after {
+    content:"";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 15px auto 15px;
+
+    background-color: #f38181;
+}
+
+/*Portfolio*/
+.portfolio {
+    max-width: 1400px;
+    margin: 15px auto 30px;
+    width: 100%;
+
+    position: relative;
+    padding: 25px 0;
+}
+
+.portfolio__list {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.portfolio-item {
+    display: block;
+    -webkit-box-flex: 33%;
+        -ms-flex: 33%;
+            flex: 33%;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-weight: 500;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    font-size: 16px;
+    opacity: 0;
+
+    -webkit-transition: opacity .5s ease;
+
+    -o-transition: opacity .5s ease;
+
+    transition: opacity .5s ease;
+    z-index: 2;
+}
+
+.portfolio-item:hover .portfolio-item-hover {
+    opacity: 1;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.portfolio-item:hover img {
+    -webkit-transform: scale(105%);
+        -ms-transform: scale(105%);
+            transform: scale(105%);
+}
+
+@media (max-width:768px) {
+    .portfolio-item {
+        -webkit-box-flex: 50%;
+            -ms-flex: 50%;
+                flex: 50%;
+    }
+}
+
+@media (max-width:530px) {
+    .portfolio-item {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%;
+    }
+}

@@ -1,0 +1,286 @@
+@media (max-width:900px) {
+    
+    .red__line {
+        font-size: 21px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+
+    /*Header*/
+    .header {
+        width: 100%;
+    }
+
+    .contacts {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .header__item {
+        margin: 10px 0 0;
+    }
+
+    .header__phones .phone {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*Nav*/
+    .nav {
+        font-size: 13px;
+    }
+
+    /* About */
+    .about {
+        padding: 40px 0;
+    }
+
+    .about .container {
+        max-width: 75%;
+    }
+
+    .about h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+        margin: 0 auto;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    /*About vishivka*/
+    .vishivka{
+        padding: 30px 15px;
+        font-size: 14px;
+    }
+
+    .vishivka__photo {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .vishivka__photo .photo__item {
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    /*Pluses*/
+    .pluses {
+        font-size: 14px;
+        padding: 25px 15px;
+    }
+
+    .plus__title {
+        font-size: 21px;
+    }
+
+    .plus__item {
+        margin-top: 15px;
+    }
+
+    .plus__item p {
+        padding: 0 10px;
+    }
+
+    /* About company */
+    .about-company {
+        padding: 30px 15px;
+    }
+
+    .company__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .company__item-text, .company__item-image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .company__item-image {
+        margin-top: 30px;
+    }
+
+    .company__item-text {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-row {
+        padding: 15px;
+    }
+
+    .footer-copyright {
+        font-size: 13px;
+    }
+
+    .footer-social p {
+        font-size: 14px;
+    }
+
+    /* Portfolio */
+    .portfolio__title {
+        padding: 15px 15px 0;
+    }
+
+    .portfolio {
+        padding: 0;
+    }
+
+    /*Contacts*/
+    .contacts {
+        padding: 15px;
+    }
+
+    .all__contacts {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .all__contacts p {
+        font-size: 14px;
+    }
+
+    .contacts__block-cont {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    .contacts__block-cont h3:first-child {
+        margin-top: 0;
+    }
+    
+    .contacts__block-map {
+        width: 100%;
+    }
+
+    .header .contacts {
+        padding: 0;
+    }
+
+    /* Prices */
+    .prices__info {
+        font-size: 14px;
+    }
+
+    .prices__info hr {
+        margin: 20px auto;
+    }
+
+    .prices__info-steps {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:556px) {
+
+    /*Header*/
+    .header {
+        font-size: 12px;
+    }
+
+    .header__item .fa-map-location-dot {
+        font-size: 20px;
+    }
+
+    .main__logo {
+        font-size: 20px;
+    }
+    
+    .header__numbers .fa-phone {
+        font-size: 20px;
+    }
+
+    /*Nav*/
+    .nav {
+        font-size: 12px;
+    }
+
+    .nav__bar li {
+        padding: 10px 15px;
+    }
+
+    /* About */
+    .about {
+        padding: 20px 0;
+    }
+
+    .about .container {
+        max-width: 85%;
+    }
+
+    .about h1 {
+        font-size: 20px;
+    }
+
+    /*Pluses*/
+    .plus__item {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%;
+    }
+
+    /* Footer */
+    .footer-row {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 15px 15px 25px;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+    }
+
+    .footer-social p {
+        padding: 0;
+    }
+}
+
+
+@media (max-width:370px) {
+    /*Nav*/
+    .nav__bar {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .nav__bar li {
+        border: 0;
+    }
+
+    .nav__bar li::after {
+        content: "";
+        display: block;
+        margin: 10px auto 0;
+        height: 2px;
+        width: 70px;
+        background-color: #b8b8b8;
+    }
+
+    .nav__bar li:last-child:after {
+        display: none;
+    }
+
+}

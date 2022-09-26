@@ -1,0 +1,68 @@
+.section--grey {
+    background-color: #edeef0;
+    width: 100%;
+    border-top: #d0d0d0 1px solid;
+    border-bottom: #d0d0d0 1px solid;
+}
+
+
+/*Vishivka*/
+.vishivka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+
+    line-height: 1.4;
+}
+
+.red__line {
+    position: relative;
+
+}
+
+.red__line:after {
+    content:"";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 15px auto;
+
+    background-color: #f38181;
+}
+
+/*Contacts*/
+.contacts {
+    line-height: 1.4;
+    padding: 0 15px;
+}
+
+.all__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contacts__block-cont {
+    text-align: left;
+    -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+            flex: 40%;
+}
+
+.contacts__block-map {
+    -webkit-box-flex: 60%;
+        -ms-flex: 60%;
+            flex: 60%;
+    padding: 0 0 25px;
+}
+
+.contacts__block-map h3,
+.contacts__block-map p {
+    margin: 0 auto 10px;
+}
